@@ -5,7 +5,7 @@
 int main(){
     SetConsoleOutputCP(CP_UTF8);
 
-    printf("MAD LIBS GAME");
+    printf("MAD LIBS GAME\n");
 
     char adjetivo1[20] = "";
     char adjetivo2[20] = "";
