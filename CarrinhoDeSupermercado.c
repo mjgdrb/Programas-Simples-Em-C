@@ -5,12 +5,14 @@
 int main(){
     SetConsoleOutputCP(CP_UTF8);
 
+    printf("CARRINHO DE SUPERMERCADO\n");
+
     char nomeProduto[30] = "";
     float preço = 0.00f;
     int quantidade = 0;
     float valorTotal = 0;
 
-    printf("Qual item você gostaria de comprar?: ");
+    printf("\nQual item você gostaria de comprar?: ");
     fgets(nomeProduto, sizeof(nomeProduto), stdin);
     nomeProduto[strlen(nomeProduto) - 1] = '\0';
 
